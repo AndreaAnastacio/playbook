@@ -1,9 +1,8 @@
-const Pokemon = require("./pokemon");
-
-const pikachu = new Pokemon("pikachu");
-const bulbasaur = new Pokemon("bulbasaur");
-const squirtle = new Pokemon("squirtle");
-const charmander = new Pokemon("charmander");
+import pokemon from "./pokemon.js";
+const pikachu = new pokemon("pikachu");
+const bulbasaur = new pokemon("bulbasaur");
+const squirtle = new pokemon("squirtle");
+const charmander = new pokemon("charmander");
 
 pikachu.sayHello();
 pikachu.sayMessage("Heey!");
